@@ -46,7 +46,7 @@ sudo iptables -A INPUT -p tcp --dport 21 -j DROP
 verificar los puertos nueva mente 
 sudo iptables -L
   para haceder al puerto 22  desde CMD 
-SSH lavoe@192.168.10x.xx 
+SSH  usuario@ip_vm 
 contraseña
 
 despues activar los servicios
@@ -91,5 +91,7 @@ poner auth required pam_google_authenticator.so que es para
 despues ir a sudo nano/etc/sshd_config 
 buscar Kbdinteractiveauthenticacion  y poner yes al final 
 ctrl o ctrl x
-
+sudo systemctl restart ssh 
+en el cmd 
+ssh  usuario@ip_vm
 
