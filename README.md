@@ -68,7 +68,7 @@ despues sudo ufw allow 80
 despues sudo ufw allow 21
 despues sudo ufw allow 22v
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-PRACTICA III
+PRACTICA IV
 sudo apt install openssh-server
 sudo systemctl status ssh
 sudo systemctl start ssh
